@@ -7,10 +7,18 @@
 
 import SwiftUI
 
+func LoadTemp() {
+    
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack{
+            Text("Dukkert").bold().padding(3)
+            Button("Load temperature") {
+                LoadTemp()
+            }.background(Color.red).foregroundColor(Color.white).cornerRadius(26).padding(10)
+        }
     }
 }
 
