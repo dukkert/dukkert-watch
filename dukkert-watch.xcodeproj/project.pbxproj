@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C81DD0FA284EA0BA00BFBA14 /* dukkert-watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C81DD0F9284EA0BA00BFBA14 /* dukkert-watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C81DD0FF284EA0BC00BFBA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81DD0FE284EA0BC00BFBA14 /* Assets.xcassets */; };
+		C81DD105284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C81DD104284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C81DD10A284EA0BC00BFBA14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DD109284EA0BC00BFBA14 /* ContentView.swift */; };
+		C81DD10C284EA0BC00BFBA14 /* dukkert_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DD10B284EA0BC00BFBA14 /* dukkert_watchApp.swift */; };
+		C81DD10E284EA0BC00BFBA14 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81DD10D284EA0BC00BFBA14 /* ComplicationController.swift */; };
+		C81DD110284EA0BE00BFBA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81DD10F284EA0BE00BFBA14 /* Assets.xcassets */; };
+		C81DD113284EA0BE00BFBA14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81DD112284EA0BE00BFBA14 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C81DD0FB284EA0BA00BFBA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81DD0EF284EA0BA00BFBA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C81DD0F8284EA0BA00BFBA14;
+			remoteInfo = "dukkert-watch WatchKit App";
+		};
+		C81DD106284EA0BC00BFBA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81DD0EF284EA0BA00BFBA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C81DD103284EA0BC00BFBA14;
+			remoteInfo = "dukkert-watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C81DD11A284EA0BE00BFBA14 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C81DD105284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81DD11E284EA0BE00BFBA14 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C81DD0FA284EA0BA00BFBA14 /* dukkert-watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C81DD0F5284EA0BA00BFBA14 /* dukkert-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dukkert-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81DD0F9284EA0BA00BFBA14 /* dukkert-watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dukkert-watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81DD0FE284EA0BC00BFBA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C81DD104284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dukkert-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81DD109284EA0BC00BFBA14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C81DD10B284EA0BC00BFBA14 /* dukkert_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dukkert_watchApp.swift; sourceTree = "<group>"; };
+		C81DD10D284EA0BC00BFBA14 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C81DD10F284EA0BE00BFBA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C81DD112284EA0BE00BFBA14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C81DD114284EA0BE00BFBA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C81DD101284EA0BC00BFBA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C81DD0EE284EA0BA00BFBA14 = {
+			isa = PBXGroup;
+			children = (
+				C81DD0FD284EA0BA00BFBA14 /* dukkert-watch WatchKit App */,
+				C81DD108284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension */,
+				C81DD0F6284EA0BA00BFBA14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C81DD0F6284EA0BA00BFBA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD0F5284EA0BA00BFBA14 /* dukkert-watch.app */,
+				C81DD0F9284EA0BA00BFBA14 /* dukkert-watch WatchKit App.app */,
+				C81DD104284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C81DD0FD284EA0BA00BFBA14 /* dukkert-watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD0FE284EA0BC00BFBA14 /* Assets.xcassets */,
+			);
+			path = "dukkert-watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C81DD108284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD109284EA0BC00BFBA14 /* ContentView.swift */,
+				C81DD10B284EA0BC00BFBA14 /* dukkert_watchApp.swift */,
+				C81DD10D284EA0BC00BFBA14 /* ComplicationController.swift */,
+				C81DD10F284EA0BE00BFBA14 /* Assets.xcassets */,
+				C81DD114284EA0BE00BFBA14 /* Info.plist */,
+				C81DD111284EA0BE00BFBA14 /* Preview Content */,
+			);
+			path = "dukkert-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C81DD111284EA0BE00BFBA14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C81DD112284EA0BE00BFBA14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C81DD0F4284EA0BA00BFBA14 /* dukkert-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81DD11F284EA0BE00BFBA14 /* Build configuration list for PBXNativeTarget "dukkert-watch" */;
+			buildPhases = (
+				C81DD0F3284EA0BA00BFBA14 /* Resources */,
+				C81DD11E284EA0BE00BFBA14 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81DD0FC284EA0BA00BFBA14 /* PBXTargetDependency */,
+			);
+			name = "dukkert-watch";
+			productName = "dukkert-watch";
+			productReference = C81DD0F5284EA0BA00BFBA14 /* dukkert-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C81DD0F8284EA0BA00BFBA14 /* dukkert-watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81DD11B284EA0BE00BFBA14 /* Build configuration list for PBXNativeTarget "dukkert-watch WatchKit App" */;
+			buildPhases = (
+				C81DD0F7284EA0BA00BFBA14 /* Resources */,
+				C81DD11A284EA0BE00BFBA14 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81DD107284EA0BC00BFBA14 /* PBXTargetDependency */,
+			);
+			name = "dukkert-watch WatchKit App";
+			productName = "dukkert-watch WatchKit App";
+			productReference = C81DD0F9284EA0BA00BFBA14 /* dukkert-watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C81DD103284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81DD117284EA0BE00BFBA14 /* Build configuration list for PBXNativeTarget "dukkert-watch WatchKit Extension" */;
+			buildPhases = (
+				C81DD100284EA0BC00BFBA14 /* Sources */,
+				C81DD101284EA0BC00BFBA14 /* Frameworks */,
+				C81DD102284EA0BC00BFBA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dukkert-watch WatchKit Extension";
+			productName = "dukkert-watch WatchKit Extension";
+			productReference = C81DD104284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C81DD0EF284EA0BA00BFBA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C81DD0F4284EA0BA00BFBA14 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C81DD0F8284EA0BA00BFBA14 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C81DD103284EA0BC00BFBA14 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C81DD0F2284EA0BA00BFBA14 /* Build configuration list for PBXProject "dukkert-watch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C81DD0EE284EA0BA00BFBA14;
+			productRefGroup = C81DD0F6284EA0BA00BFBA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C81DD0F4284EA0BA00BFBA14 /* dukkert-watch */,
+				C81DD0F8284EA0BA00BFBA14 /* dukkert-watch WatchKit App */,
+				C81DD103284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C81DD0F3284EA0BA00BFBA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81DD0F7284EA0BA00BFBA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81DD0FF284EA0BC00BFBA14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81DD102284EA0BC00BFBA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81DD113284EA0BE00BFBA14 /* Preview Assets.xcassets in Resources */,
+				C81DD110284EA0BE00BFBA14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C81DD100284EA0BC00BFBA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81DD10C284EA0BC00BFBA14 /* dukkert_watchApp.swift in Sources */,
+				C81DD10A284EA0BC00BFBA14 /* ContentView.swift in Sources */,
+				C81DD10E284EA0BC00BFBA14 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C81DD0FC284EA0BA00BFBA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C81DD0F8284EA0BA00BFBA14 /* dukkert-watch WatchKit App */;
+			targetProxy = C81DD0FB284EA0BA00BFBA14 /* PBXContainerItemProxy */;
+		};
+		C81DD107284EA0BC00BFBA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C81DD103284EA0BC00BFBA14 /* dukkert-watch WatchKit Extension */;
+			targetProxy = C81DD106284EA0BC00BFBA14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C81DD115284EA0BE00BFBA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C81DD116284EA0BE00BFBA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C81DD118284EA0BE00BFBA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dukkert-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7A45AF2SLA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dukkert-watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "dukkert-watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gjelten.dukkert-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		C81DD119284EA0BE00BFBA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dukkert-watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7A45AF2SLA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dukkert-watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "dukkert-watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gjelten.dukkert-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		C81DD11C284EA0BE00BFBA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A45AF2SLA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = dukkert_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "dukkert-watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gjelten.dukkert-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		C81DD11D284EA0BE00BFBA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A45AF2SLA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = dukkert_watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "dukkert-watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gjelten.dukkert-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		C81DD120284EA0BE00BFBA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A45AF2SLA;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gjelten.dukkert-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C81DD121284EA0BE00BFBA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A45AF2SLA;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gjelten.dukkert-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C81DD0F2284EA0BA00BFBA14 /* Build configuration list for PBXProject "dukkert-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81DD115284EA0BE00BFBA14 /* Debug */,
+				C81DD116284EA0BE00BFBA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81DD117284EA0BE00BFBA14 /* Build configuration list for PBXNativeTarget "dukkert-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81DD118284EA0BE00BFBA14 /* Debug */,
+				C81DD119284EA0BE00BFBA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81DD11B284EA0BE00BFBA14 /* Build configuration list for PBXNativeTarget "dukkert-watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81DD11C284EA0BE00BFBA14 /* Debug */,
+				C81DD11D284EA0BE00BFBA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81DD11F284EA0BE00BFBA14 /* Build configuration list for PBXNativeTarget "dukkert-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81DD120284EA0BE00BFBA14 /* Debug */,
+				C81DD121284EA0BE00BFBA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C81DD0EF284EA0BA00BFBA14 /* Project object */;
+}
